@@ -16,24 +16,26 @@ li a:hover {
 
 
 /*index_body*/
-.index_span {
+.index_div_1, .index_div_2 {
     background-image: url(../img/main-bg.jpg);
-    background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 100%;
     height: 100vh;
+    padding: 0;
 }
 
 /*news_body*/
-.news_span, .news_p {
+.news_div, .news_p {
     background-image: url(../img/news-bg.jpg);
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    padding: 0;
 }
+/**/
+
 .main_colomns, .side_colomns {
     padding: 2%;
     border-radius: 10px
@@ -49,6 +51,14 @@ li a:hover {
 }
 
 /*menu_body*/
+.menu_div .menu_h2, .menu_p {
+    background:url(../img/menu-bg.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+}
 
 
 /*footer*/
