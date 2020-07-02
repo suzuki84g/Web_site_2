@@ -10,10 +10,27 @@ html {
 }
 
 /*header*/
-li a:hover {
-    background-color: #0bd;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 150px;
 }
-
+ul a:hover {
+    color: #0bd;
+}
+ul li {
+    display: block;
+    padding: 5px 15px;
+}
+.imglogo {
+    width: 30%;
+    height: auto;
+    padding-left: 150px;
+}
 
 /*index_body*/
 .index_div_0, .index_div_1 {
@@ -21,33 +38,43 @@ li a:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
     height: 100vh;
     padding: 0;
     width: 100%;
 }
 .index_div_1, .button_0 {
-    position: absolute;
     text-align: center;
     width: 100%;
 }
+h2 {
+    font-size: 3.5em;
+    color: #3f312b;
+}
+p {
+    padding: 25px;
+    color: #3f312b;
+}
+
 .button_0 {
     font-size: 20px;
     cursor: pointer;
-    padding: 10px 35px;
-    background-color: #33ccff;
+    background-color: #13afe4;
     color: #ffffff;
-    line-height: 1em;
+    border-radius: 5px;
+}
+.button_0:hover {
+    background-color: #1099c7;
 }
 
 /*news_body*/
-.news_div, .news_p {
+.news_div_0, .news_h2 {
     background-image: url(../img/news-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     padding: 0;
+    width: 100%;
 }
 /*news_bodyは再度調整*/
 
@@ -67,12 +94,14 @@ li a:hover {
 
 /*menu_body*/
 .menu_div .menu_h2, .menu_p {
-    background: url(../img/menu-bg.jpg); /*urlの前に色指定する*/
+    background: #736d71 url(../img/menu-bg.jpg); /*urlの前に色指定する*/
+    background-position: center center;
     background-repeat: no-repeat;
     background-blend-mode: lighten;
     background-size: cover;
     height: 100vh;
     padding: 0;
+    width: 100%;
 }
 .picture_container {
     display: grid;
