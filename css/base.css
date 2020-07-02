@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
-/* *, *::before, *::after {
+*, *::before, *::after {
     -webkit-box-sizing: border-box;
     box-sizing: border-box
-    } */
+    }
 
 html {
     font-size: 100%;
@@ -16,13 +16,28 @@ li a:hover {
 
 
 /*index_body*/
-.index_div_1, .index_div_2 {
+.index_div_0, .index_div_1 {
     background-image: url(../img/main-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     height: 100vh;
     padding: 0;
+    width: 100%;
+}
+.index_div_1, .button_0 {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.button_0 {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 35px;
+    background-color: #33ccff;
+    color: #ffffff;
+    line-height: 1em;
 }
 
 /*news_body*/
@@ -34,7 +49,7 @@ li a:hover {
     height: 100vh;
     padding: 0;
 }
-/**/
+/*news_bodyは再度調整*/
 
 .main_colomns, .side_colomns {
     padding: 2%;
@@ -52,7 +67,7 @@ li a:hover {
 
 /*menu_body*/
 .menu_div .menu_h2, .menu_p {
-    background:url(../img/menu-bg.jpg);
+    background: url(../img/menu-bg.jpg); /*urlの前に色指定する*/
     background-repeat: no-repeat;
     background-blend-mode: lighten;
     background-size: cover;
@@ -61,15 +76,57 @@ li a:hover {
 }
 .picture_container {
     display: grid;
+    grid-template-areas:
+        "a a b"
+        "a a c"
+        "d e f"
+        "g h i";
     gap: 50px;
-    grid-template-columns: 150px 100px 100px;
-    grid-template-rows: 150px 100px 100px;
+    grid-template-columns: 400px 200px 200px 200px;
+    grid-template-rows: 400px 200px 200px 200px;
 }
-.picture_1 {
-    grid-row: span 3;
-    grid-column: span 3;
-    grid-auto-flow: dense;
+.picture_a {
+    grid-area: a;
 }
-/*menu_boddyはしばらく調整*/
+.picture_b {
+    grid-area: b;
+}
+.picture_c {
+    grid-area: c;
+}
+.picture_d {
+    grid-area: d;
+}
+.picture_e {
+    grid-area: e;
+}
+.picture_f {
+    grid-area: f;
+}
+.picture_g {
+    grid-area: g;
+}
+.picture_h {
+    grid-area: h;
+}
+.picture_i {
+    grid-area: i;
+}
+/*menu_bodyはしばらく調整*/
+
+/*contact_body*/
+.map {
+    position: relative;
+    width: 100%;
+    padding-left: 75%; /* = height(高さ) ÷ width(横) × 100 */
+}
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/*google map消失。原因を探る。*/
 
 /*footer*/
