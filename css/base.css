@@ -49,6 +49,7 @@ ul li {
 h2 {
     font-size: 3.5em;
     color: #3f312b;
+    font-family: 'Philosopher', sans-serif;
 }
 p {
     padding: 25px;
@@ -94,10 +95,10 @@ p {
 
 /*menu_body*/
 .menu_div .menu_h2, .menu_p {
-    background: #736d71 url(../img/menu-bg.jpg); /*urlの前に色指定する*/
+    background: #626063 url(../img/menu-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-blend-mode: lighten;
+    background-blend-mode: screen;
     background-size: cover;
     height: 100vh;
     padding: 0;
@@ -144,6 +145,16 @@ p {
 /*menu_bodyはしばらく調整*/
 
 /*contact_body*/
+.contact_div {
+    background-image: url(../img/contact-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    width: 100%;
+}
 .map {
     position: relative;
     width: 100%;
