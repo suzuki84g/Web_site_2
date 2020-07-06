@@ -29,11 +29,11 @@ ul li {
 .imglogo {
     width: 30%;
     height: auto;
-    padding-left: 150px;
+    padding-left: 200px;
 }
 
-/*index_body*/
-.index_div_0, .index_div_1 {
+/*index_main*/
+.div_index {
     background-image: url(../img/main-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -42,18 +42,27 @@ ul li {
     padding: 0;
     width: 100%;
 }
-.index_div_1, .button_0 {
+h2, p {
     text-align: center;
     width: 100%;
 }
+.button_0 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
 h2 {
-    font-size: 3.5em;
+    font-size: 4em;
     color: #3f312b;
     font-family: 'Philosopher', sans-serif;
+    margin-top: 150px;
 }
 p {
     padding: 25px;
     color: #3f312b;
+    margin-top: 50px;
 }
 
 .button_0 {
@@ -68,7 +77,7 @@ p {
 }
 
 /*news_body*/
-.news_div_0, .news_h2 {
+.div_news {
     background-image: url(../img/news-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -92,9 +101,25 @@ p {
         margin: 0 10px 0 0;
     }
 }
+.side_colomns {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: list-item;
+    text-transform: uppercase;
+}
+.side_colomns li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.side_colomns li a {
+    display: block;
+    padding: 4px;
+}
 
 /*menu_body*/
-.menu_div .menu_h2, .menu_p {
+.div_menu {
     background: #626063 url(../img/menu-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -114,11 +139,9 @@ p {
         "a a c"
         "d e f"
         "g h i";
-    gap: 50px;
     grid-template-columns: 400px 200px 200px;
     grid-template-rows: 400px 200px 200px;
-    justify-content: center;
-    align-content: center;
+    margin: 0 auto;
 }
 .picture_a {
     grid-area: a;
@@ -150,7 +173,7 @@ p {
 /*menu_bodyとHTMLはしばらく調整*/
 
 /*contact_body*/
-.contact_div {
+.div_contact {
     background-image: url(../img/contact-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
