@@ -104,6 +104,9 @@ p {
     padding: 0;
     width: 100%;
 }
+.menu_h2, .menu_p {
+    text-align: center;
+}
 .picture_container {
     display: grid;
     grid-template-areas:
@@ -112,8 +115,8 @@ p {
         "d e f"
         "g h i";
     gap: 50px;
-    grid-template-columns: 400px 200px 200px 200px;
-    grid-template-rows: 400px 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
 }
 .picture_a {
     grid-area: a;
