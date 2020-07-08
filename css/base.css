@@ -40,7 +40,8 @@ ul li {
     background-size: cover;
     height: 100vh;
     padding: 0;
-    width: 100%;
+    width: 90vw;
+    max-width: 800px;
 }
 .index_h2, .index_p {
     text-align: center;
@@ -140,7 +141,8 @@ p {
     background-size: cover;
     height: 650px;
     padding: 0;
-    width: 100%;
+    width: 90vw;
+    max-width: 800px;
 }
 .menu_h2, .menu_p {
     text-align: center;
@@ -200,7 +202,8 @@ p {
     background-size: cover;
     height: 100vh;
     padding: 0;
-    width: 100%;
+    width: 90vw;
+    max-width: 800px;
 }
 .contact_h2 {
     text-align: left;
