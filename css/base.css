@@ -17,7 +17,7 @@ ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 150px;
+    padding-right: 10em;
 }
 ul a:hover {
     color: #0bd;
@@ -29,7 +29,7 @@ ul li {
 .imglogo {
     width: 30%;
     height: auto;
-    padding-left: 200px;
+    padding-left: 10em;
 }
 
 /*index_main*/
@@ -57,7 +57,7 @@ h2 {
     font-size: 4em;
     color: #3f312b;
     font-family: 'Philosopher', sans-serif;
-    margin-top: 150px;
+    margin-top: 2.5em;
 }
 p {
     padding: 25px;
@@ -80,9 +80,10 @@ p {
     background-image: url(../img/news-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 100vw;
     padding: 0;
-    width: 100%;
+    width: 90vw;
+    max-width: 800px;
 }
 .time_news {
     display: block;
@@ -91,9 +92,6 @@ p {
     background-color: #13afe4;
     color: #ffffff;
     border-radius: 5px;
-}
-.main_colomns {
-    text-align: center;
 }
 .news_h3 {
     display: inline-block;
