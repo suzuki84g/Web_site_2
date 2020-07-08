@@ -1,0 +1,67 @@
+/*contact_body*/
+.div_contact {
+    background: #626063 url(../img/contact-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    width: 90vw;
+    max-width: 800px;
+}
+.contact_h2 {
+    text-align: left;
+    font-size: 4em;
+    color: #3f312b;
+    font-family: 'Philosopher', sans-serif;
+    margin-top: 150px;
+}
+.text_contact, .email_contact {
+    text-align: center;
+    display: block;
+    padding: 5px 5px;
+    margin: 5px 0;
+    width: 300px; height: 40px;
+    background-blend-mode: screen;
+    background-color: transparent;
+    border: solid 1px #ffffff;
+    border-radius: 10px;
+}
+textarea {
+    text-align: center;
+    display: block;
+    padding: 5px 5px;
+    margin: 5px 0;
+    width: 500px; height: 130px;
+    background-blend-mode: screen;
+    background-color: transparent;
+    border: solid 1px #ffffff;
+    border-radius: 10px;
+}
+.submit_0 {
+    display: block;
+    margin-left: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #13afe4;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.submit_0:hover {
+    background-color: #1099c7;
+}
+.map {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.map iframe {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100%;
+    height: 100%;
+    padding-left: 75%; /* = height(高さ) ÷ width(横) × 100 */
+}
+/*google map消失が解消されたのに、backimg消失原因を探る*/

@@ -1,0 +1,73 @@
+/*index_main*/
+.div_index {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.div_index_0 {
+    background-image: url(../img/main-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+}
+@media screen and (max-width: 600px) {
+    .div_index{
+    height: 200px;
+    }
+    .div_index_0{
+    width: 300px;
+    height: 70px;
+    }
+    .index_h2{
+    font-size: 1.4rem;
+    }
+}
+@media screen and (min-width: 601px) {
+    .div_index{
+    height: 100hv;
+    }
+    .div_index_0{
+    width: 400px;
+    height: 100hv;
+    }
+    .index_h2{
+    font-size: 2rem;
+    }
+}
+.index_h2, .index_p {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+}
+.button_0 {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+}
+.index_p {
+    padding: 25px;
+    color: #3f312b;
+    margin-top: 50px;
+}
+.button_0 {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #13afe4;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.button_0:hover {
+    background-color: #1099c7;
+}
