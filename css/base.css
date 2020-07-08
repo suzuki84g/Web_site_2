@@ -42,7 +42,7 @@ ul li {
     padding: 0;
     width: 100%;
 }
-h2, p {
+.index_h2, .index_p {
     text-align: center;
     width: 100%;
 }
@@ -51,9 +51,9 @@ h2, p {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-
 }
 h2 {
+    text-align: center;
     font-size: 4em;
     color: #3f312b;
     font-family: 'Philosopher', sans-serif;
@@ -64,7 +64,6 @@ p {
     color: #3f312b;
     margin-top: 50px;
 }
-
 .button_0 {
     font-size: 20px;
     cursor: pointer;
@@ -79,18 +78,34 @@ p {
 /*news_body*/
 .div_news {
     background-image: url(../img/news-bg.jpg);
-    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 500px;
     padding: 0;
     width: 100%;
 }
-/*news_bodyは再度調整*/
-
+.time_news {
+    display: block;
+    margin-left: 150px;
+    font-size: 10px;
+    background-color: #13afe4;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.main_colomns {
+    text-align: center;
+}
+.news_h3 {
+    display: inline-block;
+    text-align: left;
+}
+.news_p {
+    display: inline-block;
+    text-align: left;
+}
 .main_colomns, .side_colomns {
-    padding: 2%;
-    border-radius: 10px
+    padding: 5%;
+    border-radius: 5px;
 }
 @media ( min-width : 600px ) {
     .all_colomns {
@@ -103,19 +118,19 @@ p {
 }
 .side_colomns {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding: 5px;
     display: list-item;
     text-transform: uppercase;
 }
 .side_colomns li {
     display: inline;
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding: 5px;
 }
 .side_colomns li a {
     display: block;
-    padding: 4px;
+    padding: 5px;
 }
 
 /*menu_body*/
@@ -125,12 +140,16 @@ p {
     background-repeat: no-repeat;
     background-blend-mode: screen;
     background-size: cover;
-    height: 100vh;
+    height: 650px;
     padding: 0;
     width: 100%;
 }
 .menu_h2, .menu_p {
     text-align: center;
+}
+.menu_p {
+    display: inline-block;
+    text-align: left;
 }
 .picture_container {
     display: grid;
@@ -139,12 +158,14 @@ p {
         "a a c"
         "d e f"
         "g h i";
-    grid-template-columns: 400px 200px 200px;
-    grid-template-rows: 400px 200px 200px;
+    grid-template-columns: 400px 400px 400px 400px;
+    grid-template-rows: 400px 400px 400px 400px;
     margin: 0 auto;
 }
 .picture_a {
     grid-area: a;
+    grid-column: span 2;
+    grid-column: span 2;
 }
 .picture_b {
     grid-area: b;
@@ -174,7 +195,7 @@ p {
 
 /*contact_body*/
 .div_contact {
-    background-image: url(../img/contact-bg.jpg);
+    background: #626063 url(../img/contact-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-blend-mode: screen;
@@ -183,18 +204,66 @@ p {
     padding: 0;
     width: 100%;
 }
+.contact_h2 {
+    text-align: left;
+    font-size: 4em;
+    color: #3f312b;
+    font-family: 'Philosopher', sans-serif;
+    margin-top: 150px;
+}
+.text_contact, .email_contact {
+    text-align: center;
+    display: block;
+    padding: 5px 5px;
+    margin: 5px 0;
+    width: 300px; height: 40px;
+    background-blend-mode: screen;
+    background-color: transparent;
+    border: solid 1px #ffffff;
+    border-radius: 10px;
+}
+textarea {
+    text-align: center;
+    display: block;
+    padding: 5px 5px;
+    margin: 5px 0;
+    width: 500px; height: 130px;
+    background-blend-mode: screen;
+    background-color: transparent;
+    border: solid 1px #ffffff;
+    border-radius: 10px;
+}
+.submit_0 {
+    display: block;
+    margin-left: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #13afe4;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.submit_0:hover {
+    background-color: #1099c7;
+}
 .map {
     position: relative;
     width: 100%;
-    padding-left: 75%; /* = height(高さ) ÷ width(横) × 100 */
+    height: 100%;
 }
 .map iframe {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50px;
+    left: 50px;
     width: 100%;
     height: 100%;
+    padding-left: 75%; /* = height(高さ) ÷ width(横) × 100 */
 }
-/*google map消失。原因を探る。*/
+/*google map消失。原因を探る*/
 
 /*footer*/
+footer p {
+    background-color: #3f312b;
+    color: #ffffff;
+    text-align: center;
+    height: 100hv;
+}
