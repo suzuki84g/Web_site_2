@@ -25,13 +25,31 @@ ul a:hover {
 ul li {
     display: block;
     padding: 5px 15px;
+    color: #3f312b;
 }
 .imglogo {
-    width: 50%;
-    height: auto;
+    width: 60%;
+    height: 30%;
     padding-left: 100px;
 }
-
+@media screen and (max-width: 414px) {
+    .imglogo {
+    height: 200px;
+    }
+    .imglogo {
+    width: 400px;
+    height: 100%;
+    }
+}
+@media screen and (min-width: 415px) {
+    .imglogo{
+    height: 100%;
+    }
+    .imglogo{
+    width: 100hv;
+    height: 100%;
+    }
+}
 /*unity*/
 h2 {
     text-align: center;

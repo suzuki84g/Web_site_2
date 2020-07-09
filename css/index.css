@@ -12,27 +12,27 @@
     height: 100vh;
     padding: 0;
 }
-@media screen and (max-width: 600px) {
-    .div_index{
+@media screen and (max-width: 414px) {
+    .div_contact {
     height: 200px;
     }
-    .div_index_0{
-    width: 300px;
-    height: 70px;
+    .div_contact {
+    width: 400px;
+    height: 100%;
     }
-    .index_h2{
+    .contact_h2{
     font-size: 1.4rem;
     }
 }
-@media screen and (min-width: 601px) {
-    .div_index{
-    height: 100hv;
+@media screen and (min-width: 415px) {
+    .div_contact{
+    height: 100%;
     }
-    .div_index_0{
-    width: 400px;
-    height: 100hv;
+    .div_contact{
+    width: 100hv;
+    height: 100%;
     }
-    .index_h2{
+    .contact_h2{
     font-size: 2rem;
     }
 }
@@ -43,8 +43,8 @@
     bottom: 0;
     left: 0;
     margin: auto;
-    width: 400px;
-    height: 400px;
+    width: 800px;
+    height: 700px;
 }
 .button_0 {
     position: absolute;
@@ -56,10 +56,14 @@
     margin: auto;
     width: 100%;
 }
+.index_h2 {
+    padding: 25px;
+    margin-top: 200px;
+}
 .index_p {
     padding: 25px;
     color: #3f312b;
-    margin-top: 50px;
+    margin-top: 300px;
 }
 .button_0 {
     font-size: 20px;
@@ -67,6 +71,7 @@
     background-color: #13afe4;
     color: #ffffff;
     border-radius: 5px;
+    margin-bottom: 300px;
 }
 .button_0:hover {
     background-color: #1099c7;
