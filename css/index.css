@@ -9,31 +9,31 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 10vh;
     padding: 0;
 }
 @media screen and (max-width: 414px) {
-    .div_contact {
-    height: 200px;
-    }
-    .div_contact {
-    width: 400px;
+    .div_index_0 {
     height: 100%;
     }
-    .contact_h2{
+    .div_index_0 {
+    width: 100%;
+    height: 100%;
+    }
+    .index_h2, .index_p {
     font-size: 1.4rem;
     }
 }
 @media screen and (min-width: 415px) {
-    .div_contact{
+    .div_index_0 {
     height: 100%;
     }
-    .div_contact{
-    width: 100hv;
-    height: 100%;
+    .div_index_0 {
+    width: 100%;
+    height: 85vh;
     }
-    .contact_h2{
-    font-size: 2rem;
+    .index_h2 {
+    font-size: 3rem;
     }
 }
 .index_h2, .index_p {

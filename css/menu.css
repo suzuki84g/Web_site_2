@@ -8,14 +8,14 @@
     height: 650px;
     padding: 0;
     width: 90vw;
-    max-width: 800px;
+    max-width: 100%;
 }
 @media screen and (max-width: 414px) {
     .div_contact {
-    height: 200px;
+    height: 200vh;
     }
     .div_contact {
-    width: 400px;
+    width: 400vw;
     height: 100%;
     }
     .contact_h2{

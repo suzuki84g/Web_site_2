@@ -6,7 +6,31 @@
     height: 20vh;
     padding: 0;
     width: 90vw;
-    max-width: 500vw;
+    max-width: 100%;
+}
+@media screen and (max-width: 414px) {
+    .div_contact {
+    height: 200vh;
+    }
+    .div_contact {
+    width: 400vw;
+    height: 100%;
+    }
+    .contact_h2{
+    font-size: 1.4rem;
+    }
+}
+@media screen and (min-width: 415px) {
+    .div_contact{
+    height: 100%;
+    }
+    .div_contact{
+    width: 100hv;
+    height: 100%;
+    }
+    .contact_h2{
+    font-size: 2rem;
+    }
 }
 .time_news {
     position: absolute;
