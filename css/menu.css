@@ -5,9 +5,9 @@
     background-repeat: no-repeat;
     background-blend-mode: screen;
     background-size: cover;
-    height: 650px;
+    height: 100vh;
     padding: 0;
-    width: 90vw;
+    width: 100vw;
     max-width: 100%;
 }
 @media screen and (max-width: 414px) {

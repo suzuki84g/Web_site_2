@@ -1,52 +1,37 @@
 /*index_main*/
 .div_index {
-    position: relative;
-    margin: 0 auto;
-    text-align: center;
-}
-.div_index_0 {
     background-image: url(../img/main-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 10vh;
     padding: 0;
+    position: relative;
+    margin: 0 auto;
 }
 @media screen and (max-width: 414px) {
     .div_index {
-    height: 100%;
+    height: 100vh;
     }
     .div_index_0 {
     width: 100%;
-    height: 100%;
-    }
-    .index_h2, .index_p {
-    font-size: 1.4rem;
-    }
-}
-@media screen and (min-width: 415px) {
-    .div_index {
-    height: 100%;
-    }
-    .div_index_0 {
-    width: 100%;
-    height: 85vh;
+    height: 100vh;
     }
     .index_h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     }
-}
-.index_h2, .index_p {
+    .button_0 {
+    margin-bottom: 14.992503748125937vh;
+    }
+    .index_h2, .index_p {
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     margin: auto;
-    width: 800px;
-    height: 700px;
-}
-.button_0 {
+    }
+    .button_0 {
     position: absolute;
     display: block;
     top: 0;
@@ -54,25 +39,77 @@
     bottom: 0;
     left: 0;
     margin: auto;
-    width: 100%;
+    }
+    .index_h2 {
+    padding: 6.038647342995169vh;
+    margin-top: 17.991004497751124vh;
+    text-align: center;
+    }
+    .index_p {
+    padding: 5.333333333333333vw;
+    color: #3f312b;
+    margin-top: 32.98350824587706vh;
+    }
+    .button_0 {
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #13afe4;
+    color: #ffffff;
+    border-radius: 5px;
+    }
+    .button_0:hover {
+    background-color: #1099c7;
+    }
 }
-.index_h2 {
+@media screen and (min-width: 415px) {
+    .div_index {
+    height: 100vh;
+    }
+    .div_index_0 {
+    width: 100%;
+    height: 100vh;
+    }
+    .index_h2 {
+    font-size: 3rem;
+    }
+    .button_0 {
+    margin-bottom: 29.296875vh;
+    }
+    .index_h2, .index_p {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    }
+    .button_0 {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    }
+    .index_h2 {
     padding: 25px;
     margin-top: 200px;
-}
-.index_p {
+    text-align: center;
+    }
+    .index_p {
     padding: 25px;
     color: #3f312b;
     margin-top: 300px;
-}
-.button_0 {
+    }
+    .button_0 {
     font-size: 20px;
     cursor: pointer;
     background-color: #13afe4;
     color: #ffffff;
     border-radius: 5px;
-    margin-bottom: 300px;
-}
-.button_0:hover {
+    }
+    .button_0:hover {
     background-color: #1099c7;
+    }
 }
