@@ -13,36 +13,36 @@ html {
 
 @media screen and (max-width: 414px) {
     .imglogo {
-    width: 88.02816901408451vw;
-    height: 9.66183574879227vh;
-    }
-    .imglogo {
-    margin: auto;
-    }
-    header {
-    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
     }
     ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        }
-        ul a:hover {
-        color: #0bd;
-        }
-        ul li {
-        display: block;
-        padding: 5px 15px;
-        color: #3f312b;
-        }
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-self: center;
+    width: 50%;
+    }
+    ul a:hover {
+    color: #0bd;
+    }
+    li {
+    padding: 10px;
+    color: #3f312b;
+    }
+    .navigation {
+    text-align: center;
+    }
+    .navigation li{
+    display: inline;
+    }
 }
 @media screen and (min-width: 415px) {
     .imglogo{
-    width: 19.53125vw;
-    height: 9.765625vh;
+    max-width: 100vw;
+    height: 100vh;
     cursor: pointer;
     }
     ul {
@@ -50,17 +50,18 @@ html {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 10em;
+    width: 50%;
     }
     ul a:hover {
     color: #0bd;
     }
-    ul li {
+    li {
     display: block;
     padding: 5px 15px;
     color: #3f312b;
+    }
+    .navigation {
+    text-align: right;
     }
 }
 

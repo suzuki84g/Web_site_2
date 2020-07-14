@@ -9,24 +9,24 @@
     max-width: 100%;
 }
 @media screen and (max-width: 414px) {
-    .div_contact {
-    height: 200vh;
+    .div_news {
+    height: 100vh;
     }
-    .div_contact {
-    width: 400vw;
-    height: 100%;
+    .div_news_0 {
+    width: 100%;
+    height: 100vh;
     }
-    .contact_h2{
+    .news_h2{
     font-size: 1.4rem;
     }
 }
 @media screen and (min-width: 415px) {
     .div_contact{
-    height: 100%;
+    height: 100vw;
     }
     .div_contact{
-    width: 100hv;
-    height: 100%;
+    width: 100%;
+    height: 100vh;
     }
     .contact_h2{
     font-size: 2rem;
