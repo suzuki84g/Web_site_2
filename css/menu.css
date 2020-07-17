@@ -5,33 +5,30 @@
     background-repeat: no-repeat;
     background-blend-mode: screen;
     background-size: cover;
+    position: relative;
     height: 100vh;
     padding: 0;
-    width: 100vw;
     max-width: 100%;
 }
 @media screen and (max-width: 414px) {
-    .div_contact {
-    height: 200vh;
+    .div_menu {
+        height: 100vh;
     }
-    .div_contact {
-    width: 400vw;
-    height: 100%;
+    .div_menu_0 {
+        width: 100%;
+        height: 100vh;
     }
-    .contact_h2{
-    font-size: 1.4rem;
+    .menu_h2 {
+        font-size: 1.4rem;
     }
 }
 @media screen and (min-width: 415px) {
-    .div_contact{
-    height: 100%;
+    .div_menu {
+        height: 87.63388510223953vh;
     }
-    .div_contact{
-    width: 100hv;
-    height: 100%;
-    }
-    .contact_h2{
-    font-size: 2rem;
+    .div_menu_0 {
+        width: 100vw;
+        height: 87.63388510223953vh;
     }
 }
 .menu_h2, .menu_p {
@@ -81,4 +78,7 @@
 .picture_i {
     grid-area: i;
 }
-/*menu_bodyとHTMLはしばらく調整*/
+.picture_container p {
+    clear: left;
+}
+/*menu_bodyのpxを調整とHTMLはしばらく調整*/

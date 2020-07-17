@@ -4,112 +4,106 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 10vh;
-    padding: 0;
     position: relative;
+    height: 100%;
+    padding: 0;
     margin: 0 auto;
 }
 @media screen and (max-width: 414px) {
     .div_index {
-    height: 100vh;
+        height: 100vh;
     }
     .div_index_0 {
-    width: 100%;
-    height: 100vh;
+        width: 100%;
+        height: 100vh;
     }
     .index_h2 {
-    font-size: 2rem;
+        font-size: 2rem;
     }
     .button_0 {
-    margin-bottom: 14.992503748125937vh;
-    }
-    .index_h2, .index_p {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    }
-    .button_0 {
-    position: absolute;
-    display: block;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
+        margin-bottom: 14.992503748125937vh;
     }
     .index_h2 {
-    padding: 6.038647342995169vh;
-    margin-top: 17.991004497751124vh;
-    text-align: center;
+        position: absolute;
+        top: 8.995502248875562vh;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        padding: 2.6666666666666665vh;
+        margin-top: 17.991004497751124vh;
+        text-align: center;
     }
     .index_p {
-    padding: 5.333333333333333vw;
-    color: #3f312b;
-    margin-top: 32.98350824587706vh;
+        position: absolute;
+        top: 35.98200899550225vh;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        padding: 4vw;
     }
     .button_0 {
-    font-size: 1.2rem;
-    cursor: pointer;
-    background-color: #13afe4;
-    color: #ffffff;
-    border-radius: 5px;
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        font-size: 1.2rem;
+        cursor: pointer;
+        background-color: #13afe4;
+        color: #ffffff;
+        border-radius: 5px;
     }
     .button_0:hover {
-    background-color: #1099c7;
+        background-color: #1099c7;
     }
 }
 @media screen and (min-width: 415px) {
     .div_index {
-    height: 100vh;
+        height: 100%;
     }
     .div_index_0 {
-    width: 100%;
-    height: 100vh;
+        width: 100%;
+        height: 100%;
     }
     .index_h2 {
-    font-size: 3rem;
-    }
-    .button_0 {
-    margin-bottom: 29.296875vh;
-    }
-    .index_h2, .index_p {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    }
-    .button_0 {
-    position: absolute;
-    display: block;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    }
-    .index_h2 {
-    padding: 25px;
-    margin-top: 200px;
-    text-align: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        padding: 25px;
+        margin-top: 200px;
+        text-align: center;
     }
     .index_p {
-    padding: 25px;
-    color: #3f312b;
-    margin-top: 300px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 23em;
+        margin: auto;
     }
     .button_0 {
-    font-size: 20px;
-    cursor: pointer;
-    background-color: #13afe4;
-    color: #ffffff;
-    border-radius: 5px;
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        /*margin-bottom: 29.296875vh;*/
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #13afe4;
+        color: #ffffff;
+        border-radius: 5px;
     }
     .button_0:hover {
-    background-color: #1099c7;
+        background-color: #1099c7;
     }
 }

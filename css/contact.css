@@ -1,21 +1,22 @@
 /*contact_body*/
 .div_contact {
     background: #626063 url(../img/contact-bg.jpg);
-    background-position: center center;
     background-repeat: no-repeat;
     background-blend-mode: screen;
     background-size: cover;
-    height: 100vh;
+    position: relative;
+    height: 5vh;
     padding: 0;
     width: 100vw;
-    max-width: 100%;
+    max-width: 100vw;
+    margin: 0 auto;
 }
 @media screen and (max-width: 414px) {
     .div_contact {
-    height: 200vh;
+    height: 100vh;
     }
-    .div_contact {
-    width: 400vw;
+    .div_contact_0 {
+    width: 100vw;
     height: 100%;
     }
     .contact_h2{
@@ -23,20 +24,16 @@
     }
 }
 @media screen and (min-width: 415px) {
-    .div_contact{
+    .div_contact {
     height: 100%;
     }
-    .div_contact{
+    .div_contact_0 {
     width: 100hv;
     height: 100%;
-    }
-    .contact_h2{
-    font-size: 2rem;
     }
 }
 .contact_h2 {
     text-align: left;
-    font-size: 4em;
     color: #3f312b;
     font-family: 'Philosopher', sans-serif;
     margin-top: 150px;
