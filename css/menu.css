@@ -10,6 +10,7 @@
     padding: 0;
     max-width: 100%;
 }
+/*smart phone*/
 @media screen and (max-width: 414px) {
     .div_menu {
         height: 100vh;
@@ -22,6 +23,7 @@
         font-size: 1.4rem;
     }
 }
+/*PC*/
 @media screen and (min-width: 415px) {
     .div_menu {
         height: 87.63388510223953vh;
@@ -30,55 +32,71 @@
         width: 100vw;
         height: 87.63388510223953vh;
     }
-}
-.menu_h2, .menu_p {
-    text-align: center;
-}
-.menu_p {
-    display: inline-block;
-    text-align: left;
-}
-.picture_container {
-    display: grid;
-    grid-template-areas:
-        "a a b"
-        "a a c"
-        "d e f"
-        "g h i";
-    grid-template-columns: 400px 400px 400px 400px;
-    grid-template-rows: 400px 400px 400px 400px;
-    margin: 0 auto;
-}
-.picture_a {
-    grid-area: a;
-    grid-column: span 2;
-    grid-column: span 2;
-}
-.picture_b {
-    grid-area: b;
-}
-.picture_c {
-    grid-area: c;
-}
-.picture_d {
-    grid-area: d;
-}
-.picture_e {
-    grid-area: e;
-}
-.picture_f {
-    grid-area: f;
-}
-.picture_g {
-    grid-area: g;
-}
-.picture_h {
-    grid-area: h;
-}
-.picture_i {
-    grid-area: i;
-}
-.picture_container p {
-    clear: left;
-}
+    .menu_h2 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        padding: 25px;
+        margin-top: 150px;
+        text-align: center;
+    }
+    .menu_p {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        padding: 25px;
+        margin-top: 300px;
+        width: 460px;
+        word-wrap: normal;
+    }
+    .picture_container {
+        display: grid;
+        grid-template-areas:
+            "a a b"
+            "a a c"
+            "d e f"
+            "g h i";
+        grid-template-columns: 400px 400px 400px 400px;
+        grid-template-rows: 400px 400px 400px 400px;
+        margin: 0 auto;
+    }
+    .picture_a {
+        grid-area: a;
+        grid-column: span 2;
+        grid-column: span 2;
+    }
+    .picture_b {
+        grid-area: b;
+    }
+    .picture_c {
+        grid-area: c;
+    }
+    .picture_d {
+        grid-area: d;
+    }
+    .picture_e {
+        grid-area: e;
+    }
+    .picture_f {
+        grid-area: f;
+    }
+    .picture_g {
+        grid-area: g;
+    }
+    .picture_h {
+        grid-area: h;
+    }
+    .picture_i {
+        grid-area: i;
+    }
+    .picture_container p {
+        clear: left;
+    }
 /*menu_bodyのpxを調整とHTMLはしばらく調整*/
+}

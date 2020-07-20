@@ -3,86 +3,98 @@
     background: #626063 url(../img/contact-bg.jpg);
     background-repeat: no-repeat;
     background-blend-mode: screen;
-    background-size: cover;
+    background-size: 100% 100vh;
     position: relative;
-    height: 5vh;
     padding: 0;
-    width: 100vw;
-    max-width: 100vw;
     margin: 0 auto;
+    max-width: 100vw;
 }
+/*smart phone*/
 @media screen and (max-width: 414px) {
     .div_contact {
     height: 100vh;
     }
     .div_contact_0 {
-    width: 100vw;
-    height: 100%;
+    width: 100%;
+    height: 100vh;
     }
     .contact_h2{
     font-size: 1.4rem;
     }
 }
+/*PC*/
 @media screen and (min-width: 415px) {
     .div_contact {
-    height: 100%;
+    height: 80vh;
     }
     .div_contact_0 {
-    width: 100hv;
-    height: 100%;
+    width: 100vw;
+    height: 80vh;
     }
-}
-.contact_h2 {
-    text-align: left;
-    color: #3f312b;
-    font-family: 'Philosopher', sans-serif;
-    margin-top: 150px;
-}
-.text_contact, .email_contact {
-    text-align: center;
-    display: block;
-    padding: 5px 5px;
-    margin: 5px 0;
-    width: 300px; height: 40px;
-    background-blend-mode: screen;
-    background-color: transparent;
-    border: solid 1px #ffffff;
-    border-radius: 10px;
-}
-textarea {
-    text-align: center;
-    display: block;
-    padding: 5px 5px;
-    margin: 5px 0;
-    width: 500px; height: 130px;
-    background-blend-mode: screen;
-    background-color: transparent;
-    border: solid 1px #ffffff;
-    border-radius: 10px;
-}
-.submit_0 {
-    display: block;
-    margin-left: 150px;
-    font-size: 20px;
-    cursor: pointer;
-    background-color: #13afe4;
-    color: #ffffff;
-    border-radius: 5px;
-}
-.submit_0:hover {
-    background-color: #1099c7;
-}
-.map {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-.map iframe {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    width: 100%;
-    height: 100%;
-    padding-left: 75%; /* = height(高さ) ÷ width(横) × 100 */
-}
+    .contact_h2 {
+        position: absolute;
+        top: 150px;
+        right: 0;
+        bottom: 0;
+        left: 200px;
+        margin: 0;
+        text-align: left;
+    }
+    .contact_form {
+        position: absolute;
+        top: 250px;
+        right: 0;
+        bottom: 0;
+        left: 200px;
+        margin: 0;
+        text-align: left;
+    }
+    .text_contact, .email_contact {
+        text-align: center;
+        display: block;
+        padding: 5px 5px;
+        margin: 5px 0;
+        width: 300px; height: 40px;
+        background-blend-mode: screen;
+        background-color: transparent;
+        border: solid 1px #ffffff;
+        border-radius: 10px;
+    }
+    textarea {
+        text-align: center;
+        display: block;
+        padding: 5px 5px;
+        margin: 5px 0;
+        width: 500px; height: 130px;
+        background-blend-mode: screen;
+        background-color: transparent;
+        border: solid 1px #ffffff;
+        border-radius: 10px;
+    }
+    .submit_0 {
+        display: block;
+        margin-left: 150px;
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #13afe4;
+        color: #ffffff;
+        border-radius: 5px;
+    }
+    .submit_0:hover {
+        background-color: #1099c7;
+    }
+    .map {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .map iframe {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        width: 100%;
+        height: 100%;
+        padding-left: 75%; /* = height(高さ) ÷ width(横) × 100 */
+    }
 /*google map消失が解消されたのに、backimg消失原因を探る*/
+}

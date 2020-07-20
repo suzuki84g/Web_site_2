@@ -10,6 +10,7 @@
     position: relative;
     margin: 0 auto;
 }
+/*smart phone*/
 @media screen and (max-width: 414px) {
     .div_news {
     height: 50%;
@@ -24,6 +25,7 @@
     text-align: center;
     }
 }
+/*PC*/
 @media screen and (min-width: 415px) {
     .div_news {
         height: 100vh;
@@ -55,6 +57,14 @@
         text-align:center;
     }
     .news_h2 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        padding: 25px;
+        margin-top: 200px;
         text-align: center;
     }
     .news_h3 {
