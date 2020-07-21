@@ -28,9 +28,6 @@
 /*PC*/
 @media screen and (min-width: 415px) {
     .div_news {
-        height: 100vh;
-    }
-    .div_news_0 {
         width: 100%;
         height: 100vh;
     }

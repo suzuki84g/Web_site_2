@@ -25,11 +25,8 @@
 /*PC*/
 @media screen and (min-width: 415px) {
     .div_contact {
-    height: 80vh;
-    }
-    .div_contact_0 {
-    width: 100vw;
-    height: 80vh;
+        width: 100vw;
+        height: 80vh;
     }
     .contact_h2 {
         position: absolute;
