@@ -68,43 +68,81 @@
             "d e f"
             "g h i";
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 200px 200px 200px 200px;
-        gap: 20px;
+        grid-template-rows: 50vh 50vh 50vh;
+        gap: 50px;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;
-        margin: auto;
+        margin: 600px 20%;
         margin-top: 600px;
+        width: 100%;
+        height: auto;
     }
     .picture_a {
         grid-area: a;
         grid-row: 1 / span 2;
         grid-column: 1 / span 2;
+        gap: 50px;
+        margin: 100px;
+        width: 100%;
+        height: auto;
     }
     .picture_b {
         grid-area: b;
+        gap: 50px;
+        margin: 100px;
+        width: 100%;
+        height: auto;
     }
     .picture_c {
         grid-area: c;
+        gap: 50px;
+        margin: 100px;
+        width: 100%;
+        height: auto;
     }
     .picture_d {
         grid-area: d;
+        gap: 50px;
+        margin: 100px;
+        width: 100%;
+        height: auto;
     }
     .picture_e {
         grid-area: e;
+        gap: 50px;
+        margin: 100px;
+        width: 100%;
+        height: auto;
     }
     .picture_f {
         grid-area: f;
+        gap: 50px;
+        margin: 100px;
+        width: 100%;
+        height: auto;
     }
     .picture_g {
         grid-area: g;
+        gap: 50px;
+        margin: 100px;
+        width: 100%;
+        height: auto;
     }
     .picture_h {
         grid-area: h;
+        gap: 50px;
+        margin: 100px;
+        width: 100%;
+        height: auto;
     }
     .picture_i {
         grid-area: i;
+        gap: 50px;
+        margin: 100px;
+        width: 100%;
+        height: auto;
     }
 }
 /*footerの浮く原因を探る*/
