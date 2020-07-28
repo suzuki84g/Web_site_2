@@ -20,12 +20,6 @@
         height: 100vh;
     }
     .index_h2 {
-        font-size: 2rem;
-    }
-    .button_0 {
-        margin-bottom: 14.992503748125937vh;
-    }
-    .index_h2 {
         position: absolute;
         top: 8.995502248875562vh;
         right: 0;
@@ -35,6 +29,7 @@
         padding: 2.6666666666666665vh;
         margin-top: 17.991004497751124vh;
         text-align: center;
+        font-size: 2rem;
     }
     .index_p {
         position: absolute;
@@ -58,6 +53,7 @@
         background-color: #13afe4;
         color: #ffffff;
         border-radius: 5px;
+        margin-bottom: 14.992503748125937vh;
     }
     .button_0:hover {
         background-color: #1099c7;
