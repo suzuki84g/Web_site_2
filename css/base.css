@@ -10,9 +10,8 @@
     ul {
         list-style-type: none;
         margin: 0;
-        margin-right: 17vw;
+        margin-right: 16vw;
         justify-self: center;
-        position: absolute;
     }
     ul a:hover {
         color: #0bd;
@@ -25,19 +24,16 @@
 /*PC*/
 @media (min-width: 415px) {
     .imglogo {
-        top: 15px;
-        left: 200px;
-        width: 200px;
-        height: 60px;
+        margin-right: auto;
+        width: 400px;
+        height: 100px;
         cursor: pointer;
-        position: absolute;
     }
     ul {
         list-style-type: none;
-        position: absolute;
-        right: 150px;
-        margin: 30px;
-        padding: 30px;
+        width: 350px;
+        margin-left: auto;
+        padding-top: 5px;
     }
     ul a:hover {
         color: #0bd;
@@ -77,9 +73,6 @@ footer p {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    height: 100%;
-    width: 100%;
     padding: 0;
     margin: 0 auto;
 }
@@ -89,13 +82,6 @@ footer p {
         height: 100vh;
     }
     .index_h2 {
-        font-size: 2rem;
-    }
-    .button_0 {
-        margin-bottom: 14.992503748125937vh;
-    }
-    .index_h2 {
-        position: absolute;
         top: 8.995502248875562vh;
         right: 0;
         bottom: 0;
@@ -106,7 +92,6 @@ footer p {
         text-align: center;
     }
     .index_p {
-        position: absolute;
         top: 35.98200899550225vh;
         right: 0;
         bottom: 0;
@@ -115,7 +100,6 @@ footer p {
         padding: 4vw;
     }
     .button_0 {
-        position: absolute;
         display: block;
         top: 0;
         right: 0;
@@ -127,6 +111,7 @@ footer p {
         background-color: #13afe4;
         color: #ffffff;
         border-radius: 5px;
+        margin-bottom: 14.992503748125937vh;
     }
     .button_0:hover {
         background-color: #1099c7;
@@ -138,37 +123,16 @@ footer p {
         height: 100vh;
     }
     .index_h2 {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        margin: auto;
-        padding: 25px;
-        margin-top: 200px;
+        padding: 20px;
+        margin-top: 55px;
         text-align: center;
-        font-size: 3.5rem;
+        font-size: 5rem;
     }
     .index_p {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        margin: auto;
         padding: 25px;
-        margin-top: 300px;
         text-align: center;
     }
     .button_0 {
-        position: absolute;
-        display: block;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        margin: auto;
-        /*margin-bottom: 29.296875vh;*/
         font-size: 20px;
         cursor: pointer;
         background-color: #13afe4;
@@ -188,7 +152,6 @@ footer p {
     height: 40vh;
     padding: 0;
     width: 100vw;
-    position: relative;
 }
 /*2カラム書き直し*/
 
@@ -198,7 +161,6 @@ footer p {
     }
     .time_news {
         text-align: center;
-        font-size: 1em;
         background-color: #13afe4;
         height: 100px;
         width: 100px;
