@@ -24,9 +24,9 @@
 /*PC*/
 @media (min-width: 415px) {
     .imglogo {
-        margin-right: auto;
-        width: 350px;
-        height: 100px;
+        margin-left: 300px;
+        width: 300px;
+        height: 80px;
         cursor: pointer;
     }
     ul {
@@ -172,9 +172,11 @@ footer p {
     }
     .time_news p {
         color: #ffffff;
-        border-bottom: 1px solid #ffffff;
         -webkit-transform: translateY(50%);
         transform: translateY(50%);
+    }
+    .time_news_p {
+        border-bottom: 1px solid #ffffff;
     }
     .all_colomns {
         display: -webkit-flex;
@@ -182,16 +184,18 @@ footer p {
         flex-direction: column;
         width: 800px;
         margin: 50px 100px;
-    }
-    .main_colomns, .side_colomns {
-        padding: 2%;
         -webkit-flex: 1;
         flex: 1;
     }
-    .main_colomns {
-        flex-basis: 500px;
+    .main_colomns, .side_colomns {
+        padding: 2%;
     }
-    .side_colomns {
+    .main_colomns section {
+        flex-basis: 500px;
+        -webkit-flex: 2;
+        flex: 2;
+    }
+    .side_colomns section {
         flex-basis: 300px;
     }
 }
