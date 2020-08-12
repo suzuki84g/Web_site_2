@@ -217,10 +217,6 @@ footer p {
     .div_menu {
         height: 100vh;
     }
-    .div_menu_0 {
-        width: 100%;
-        height: 100vh;
-    }
     .menu_h2 {
         font-size: 1.4rem;
     }
@@ -308,4 +304,12 @@ footer p {
         width: 500px;
         height: 300px;
     }
+}
+
+/*contact_body*/
+.div_contact {
+    background: #626063 url(../img/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    background-size: 100% 100vh;
 }
